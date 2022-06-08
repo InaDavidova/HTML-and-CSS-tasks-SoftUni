@@ -1,0 +1,28 @@
+* {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  padding: 30px;
+}
+
+nav li {
+  display: inline-block;
+  margin: auto 10px;
+}
+
+nav {
+  display: inline-block;
+}
+
+li a {
+  text-decoration: none;
+  color: green;
+}
+
+header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
