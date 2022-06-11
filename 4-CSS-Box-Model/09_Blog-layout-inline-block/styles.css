@@ -5,7 +5,7 @@
 
 body {
   border: 1px solid black;
-  background-color: RGB(238, 238, 238);
+  background-color: rgb(238, 238, 238);
   margin: 0;
   padding: 0 5%;
 }
