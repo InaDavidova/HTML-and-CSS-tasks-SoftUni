@@ -1,0 +1,35 @@
+@import 'https://use.fontawesome.com/releases/v6.1.1/css/all.css';
+
+img {
+    width: 150px;
+    display: block;
+}
+
+div {
+    position: relative;
+    min-height: 50vh;
+}
+
+div:nth-child(1){
+    background-image: linear-gradient(to right, rgb(34, 88, 140), rgb(73, 198, 156) );
+}
+
+div:nth-child(2){
+    background-image: linear-gradient(to right, rgb(152, 63, 117), rgb(210, 130, 22) );
+}
+
+section{
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 5px black ;
+}
+
+section i{
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
