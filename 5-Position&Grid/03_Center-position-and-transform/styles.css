@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(238, 238, 238);
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  width: 350px;
+  height: 400px;
+  margin: auto;
+  box-shadow: 0 0 10px darkslategrey;
+  border-radius: 5px;
+}
+
+.media {
+  position: relative;
+  height: 250px;
+}
+
+.content {
+  padding: 0 20px;
+}
+
+.card a {
+  background-color: rgb(0, 153, 0);
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  float: right;
+}
+
+.card h3 {
+  font-family: Georgia, serif;
+  font-size: 1em;
+}
+
+.media img {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
