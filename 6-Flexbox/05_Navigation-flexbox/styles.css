@@ -1,0 +1,36 @@
+body {
+  padding: 0 40px;
+}
+
+header {
+  font-family: sans-serif;
+  border-bottom: 2px solid rgb(0,0,0);
+  display: flex;
+  justify-content: space-between;
+}
+
+header p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+a {
+  color: rgb(0, 153, 0);
+  text-decoration: none;
+  font-size: 0.7rem;
+}
+
+li {
+  margin: 0 10px;
+}
+
+h1 {
+  font-size: 1.3rem;
+}
