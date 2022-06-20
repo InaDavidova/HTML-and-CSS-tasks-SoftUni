@@ -1,0 +1,91 @@
+body {
+  background-color: rgb(238, 238, 238);
+}
+
+div.page {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  column-gap: 30px;
+}
+
+header {
+  font-family: sans-serif;
+  border-bottom: 2px solid black;
+  flex-basis: 100%;
+  font-weight: 600;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.content {
+  max-width: 65%;
+}
+
+.content h1 {
+  font-size: 1.3rem;
+}
+
+.content img:nth-child(1) {
+  float: right;
+  margin-top: 50px;
+}
+
+.content section:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.content section:nth-child(2) p:nth-child(3),
+figure {
+  flex-basis: 49%;
+  margin: 0;
+}
+
+.content section:nth-child(3) img {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+aside {
+  max-width: 25%;
+}
+
+img {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  padding: 5px;
+}
+
+figure {
+  border-left: 2px solid lightgrey;
+}
+
+blockquote {
+  font-family: Georgia, serif;
+  font-style: italic;
+}
+
+blockquote p {
+  margin-top: 0;
+}
+
+figcaption {
+  text-align: right;
+}
+
+aside a {
+  color: rgb(33, 143, 14);
+  text-decoration: none;
+}
+
+aside p {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+aside ul {
+  margin-top: 0;
+}
