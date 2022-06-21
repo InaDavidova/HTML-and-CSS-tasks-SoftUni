@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  flex-flow: column;
+  width: 80%;
+  margin: auto;
+}
+
+h2 {
+  padding-left: 3%;
+}
+
+.masonry {
+  display: flex;
+  flex-flow: column wrap;
+  height: 1670px;
+  gap: 20px;
+  align-content: center;
+}
+
+img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 20px;
+}
+
+.cards-layout div {
+  width: 30%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px black;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex section {
+  height: 100%;
+}
+
+.cards-layout section,
+.cards-layout footer {
+  padding: 10px;
+}
+
+.cards-layout footer {
+  border-top: 2px solid rgb(238, 238, 238);
+}
