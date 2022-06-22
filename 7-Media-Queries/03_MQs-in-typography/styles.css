@@ -1,0 +1,144 @@
+body {
+  background-color: rgb(238, 238, 238);
+}
+
+div.page {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  column-gap: 30px;
+}
+
+header {
+  font-family: sans-serif;
+  border-bottom: 2px solid black;
+  flex-basis: 100%;
+  font-weight: 600;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.content h1 {
+  font-size: 1.3rem;
+}
+
+.content img:nth-child(1) {
+  float: right;
+  margin-top: 50px;
+}
+
+.content div:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.content div:nth-child(2) p:nth-child(3),
+figure {
+  flex-basis: 49%;
+  margin: 0;
+}
+
+.content div:nth-child(3) img {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+img {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  padding: 5px;
+}
+
+figure {
+  border-left: 2px solid lightgrey;
+}
+
+blockquote {
+  font-family: Georgia, serif;
+  font-style: italic;
+}
+
+blockquote p {
+  margin-top: 0;
+}
+
+figcaption {
+  text-align: right;
+}
+
+@media screen and (max-width: 499px) {
+  p {
+    font-size: 12px;
+  }
+
+  .content div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content div:nth-child(1) h1 {
+    order: -1;
+  }
+
+  .content img:nth-child(1) {
+    float: none;
+    margin-top: 0px;
+    width: 50%;
+  }
+
+  .content div:nth-child(2) {
+    flex-direction: column;
+  }
+
+  .content figure {
+    border: none;
+  }
+
+  .content blockquote {
+    border-left: 2px solid gray;
+    margin-left: 15px;
+    padding-left: 15px;
+  }
+
+  .content div:nth-child(2) p:nth-child(3) {
+    order: 1;
+  }
+
+  .content div:nth-child(2) p:nth-child(5) {
+    order: 2;
+  }
+
+  .content div:nth-child(3) img {
+    float: none;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  p {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 800px) {
+  p {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  p {
+    font-size: 21px;
+  }
+}
+@media screen and (min-width: 1800px) {
+  p {
+    font-size: 23px;
+  }
+}
