@@ -1,0 +1,76 @@
+form {
+  width: 90%;
+  margin: auto;
+  font-family: sans-serif;
+  margin-top: 50px;
+}
+
+fieldset {
+  position: relative;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+fieldset,
+fieldset legend {
+  border: 2px solid RGB(211, 211, 211);
+  box-shadow: 0 0 10px lightgrey;
+  border-radius: 3px;
+  background-color: RGB(248, 248, 248);
+}
+
+fieldset legend {
+  width: 35%;
+  position: absolute;
+  top: -15px;
+  left: -2px;
+  padding: 5px;
+}
+
+fieldset div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+fieldset div:last-child {
+  justify-content: start;
+  width: 285px;
+}
+
+label {
+  font-weight: bold;
+}
+
+p {
+  display: inline;
+  position: relative;
+}
+
+i {
+  position: absolute;
+  font-size: 13px;
+  top: -6px;
+  left: 10px;
+}
+
+input {
+  text-indent: 20px;
+  width: 200px;
+}
+
+input:focus {
+  border-radius: 5px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border-color: black;
+  border-radius: 3px;
+  padding: 5px 15px;
+}
