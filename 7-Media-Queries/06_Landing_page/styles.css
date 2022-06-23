@@ -1,0 +1,317 @@
+html {
+  font-family: sans-serif;
+  background-color: #fafafa;
+  background-image: url("https://img.freepik.com/free-vector/white-abstract-wallpaper_23-2148830026.jpg?w=2000");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#menu-btn {
+  display: none;
+  background-color: inherit;
+  border: none;
+  font-weight: 600;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+header div span {
+  font-family: Georgia, serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #800080;
+}
+
+header div p {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  padding-top: 13px;
+  line-height: 0;
+}
+
+header nav ul {
+  display: flex;
+  gap: 25px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+h2 {
+  font-family: Georgia, serif;
+  font-size: 1.8rem;
+}
+
+#intro {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+#intro div {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#intro i {
+  font-size: 150px;
+  width: 30%;
+}
+
+#intro p {
+  line-height: 1.6rem;
+}
+
+#intro button {
+  width: fit-content;
+  border: 2px solid black;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 7px 15px;
+  color: #1c2024;
+}
+
+#team {
+  width: 80%;
+  margin: auto;
+  position: relative;
+  margin-bottom: 80px;
+}
+
+#team .wrapper,
+#testimonials .wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+#team h2,
+#testimonials h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#team ::after {
+  content: "";
+  position: absolute;
+  border-bottom: 3px solid black;
+  width: 80px;
+  top: 45px;
+  left: calc(50% - 40px);
+}
+
+#team .image,
+#testimonials .image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+#team img,
+#testimonials img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#team .card,
+#testimonials .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1.6rem;
+  font-weight: 600;
+}
+
+#team p {
+  color: #1c2024;
+  font-style: italic;
+}
+
+#team .card__position {
+  color: #1c2024;
+  margin-bottom: 20px;
+}
+
+#subscription {
+  position: relative;
+  width: 100%;
+  background-color: #800080;
+  color: white;
+  text-align: center;
+  padding: 40px 20px 50px 20px;
+  box-shadow: 0 0 25px rgb(83, 75, 100);
+}
+
+#subscription h2 {
+  margin-bottom: 80px;
+}
+
+#subscription input {
+  width: 250px;
+  padding: 5px;
+  border-color: #1f2222;
+  border-radius: 3px;
+}
+
+#subscription button {
+  padding: 5px 10px;
+  font-weight: 600;
+  color: #1f2222;
+  border-color: #1f2222;
+  border-radius: 3px;
+}
+
+#subscription ::after {
+  content: "";
+  position: absolute;
+  border-bottom: 5px solid black;
+  width: 80px;
+  top: 100px;
+  left: calc(50% - 40px);
+}
+
+#testimonials {
+  background-image: url("https://i.fbcd.co/products/resized/resized-750-500/851d5f910ca5e0b7b2a222a93168473192ff6cbf94c8d91beb2b9ac45b73703c.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 10%;
+  position: relative;
+  box-shadow: 0 0 25px gray;
+}
+
+#testimonials h2 {
+  margin-bottom: 70px;
+}
+
+#testimonials p {
+  margin-bottom: 30px;
+  color: #4f5458;
+  font-style: italic;
+}
+
+#testimonials .card__name {
+  color: #1c2024;
+}
+
+#testimonials .card__position {
+  color: #4f5458;
+  margin-bottom: 20px;
+}
+
+#testimonials ::after {
+  content: "";
+  position: absolute;
+  border-bottom: 5px solid black;
+  width: 80px;
+  top: 100px;
+  left: calc(50% - 40px);
+}
+
+footer {
+  display: grid;
+  width: 100%;
+  margin: auto;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 6%;
+}
+
+footer #promise {
+  line-height: 1.6rem;
+  font-weight: 600;
+}
+
+#promise span,
+#sitemap span,
+#address span {
+  font-family: Georgia, serif;
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 30px;
+}
+
+#sitemap span,
+#address span {
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+#sitemap ul {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  line-height: 1.8rem;
+}
+
+#sitemap ul li {
+  flex-basis: 50%;
+  flex-shrink: 1;
+}
+
+#sitemap ul li a {
+  text-decoration: none;
+  color: #1c2024;
+  font-weight: 600;
+}
+
+#address {
+  line-height: 1.6rem;
+  padding-left: 20px;
+}
+
+#address span {
+  line-height: 1.6rem;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  header nav {
+    display: none;
+  }
+
+  #menu-btn {
+    display: block;
+  }
+
+  #intro,
+  #team {
+    width: 100%;
+  }
+
+  #team .wrapper,
+  #testimonials .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  footer {
+    grid-template-columns: 1fr;
+  }
+}
