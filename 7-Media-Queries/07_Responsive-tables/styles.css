@@ -1,0 +1,32 @@
+body {
+    background-color: #eeeeee;
+}
+
+table {
+    background-color: white;
+    width: 90%;
+    margin: auto;
+}
+
+table thead {
+    background-color: #201f1f;
+    color: #eeeeee;
+}
+
+table tbody tr:nth-child(1){
+    background-color: #eeeeee;
+
+}
+
+table th,
+table td {
+    border: 1px solid #d0d0d0;
+    padding: 3px 5px;
+}
+
+table thead tr,
+table tbody tr{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: left;
+}
